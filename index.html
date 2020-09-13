@@ -253,6 +253,14 @@
   document.addEventListener("DOMContentLoaded", function (event) {
      scrollRevelation('.card');
   });
+  (document).ready(function() {  
+   $("#myCarousel").swiperight(function() {  
+      $("#myCarousel").carousel('prev');  
+    });  
+   $("#myCarousel").swipeleft(function() {  
+      $("#myCarousel").carousel('next');  
+   });  
+});  
 </script>
 
 <script type="text/javascript" src="./main.bc58148c.js"></script></body>
